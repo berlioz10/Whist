@@ -1,0 +1,22 @@
+.all_player {
+    width:250px;
+}
+
+.score {
+    border: 100%;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.name {
+    text-align: center;
+    margin-right: 10px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,22 @@
+<div *ngIf="!startGame">
+    <input [(ngModel)]="name" (keyup.enter)="add()" placeholder="name">
+
+    <button (click)="add()">Add player</button>
+    <button (click)="remove()">Remove player</button>
+    <button (click)="start()">Start</button>
+</div>
+
+<div *ngIf="startGame">
+    <button (click)="previous()">previous</button>
+    <button (click)="next()">next</button>
+    <button (click)="repeatRound()">Repeat round</button>
+
+    <div>
+        <h1>{{this.dealer}} is the dealer right now </h1>
+    </div>
+</div>
+
+
+<div *ngFor="let player of players">
+    <app-player class="player_between_them" [player]="player"></app-player>
+</div>

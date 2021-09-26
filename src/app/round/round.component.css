@@ -1,0 +1,15 @@
+.hands_bet {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.hands_made {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.choose_hand {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}

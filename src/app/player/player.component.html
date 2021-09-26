@@ -1,0 +1,8 @@
+<div class="all_player">
+    <div> 
+        <span class="name">{{player.name}}</span> <p class="score">{{player.points}}</p>
+    </div>
+    <div *ngFor="let round of player.rounds">
+        <app-round [round]="round"></app-round>
+    </div>
+</div>

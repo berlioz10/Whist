@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "whist-project"
+    }
+  },
+  "defaultProject": "whist-project",
+  "cli": {
+    "analytics": "4cfc0581-e6f3-4ca7-b84b-8cbb4ff8b7ab"
+  }
 }

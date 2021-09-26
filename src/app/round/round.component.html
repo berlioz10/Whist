@@ -1,0 +1,4 @@
+<div>
+    <input [ngClass]="{choose_hand: round.bet == true, hands_bet: true}" type="number" min="0" max="{{round.round}}" [(ngModel)]="round.hands_bet" [disabled]="!round.bet">
+    <input [ngClass]="{choose_hand: round.made == true, hands_made: true}" type="number" min="0" max="{{round.round}}" [(ngModel)]="round.hands_made" [disabled]="!round.made">
+</div>
